@@ -12,10 +12,13 @@ ul {list-style: none;}
 p {color: #757575;}
 
 /* logo */
-.logo {color: #000000;}
-.logo:hover,
-.logo:focus {color: #2196F3;}
-
+.logo {color:#2196F3;}
+.logo {
+  color: #2196F3;
+}
+.logo span {
+  color: #000000;
+}
 /* navimenu */
 .site-nav .link 
  {color:#212121 ;}
@@ -38,6 +41,16 @@ color: #2196F3;
   background-color: blue;
   color: white;}
 
+  /* footer */
+  
+footer {
+      background-color:#2F303A ;}
+
+.logo-footer {color: #2196F3;}
+.logo-footer span {color: #FFFFFF;}
+.location {color: #FFFFFF;}
+  
+  
   /* portf-page */
 
   /* portf-menu */
@@ -48,3 +61,7 @@ color: #2196F3;
     .portf-menu .filtr:focus {
       background-color: #2196F3;
        color: #FFFFFF;}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);;
+}
