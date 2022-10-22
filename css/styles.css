@@ -2,12 +2,13 @@
 :root {
   --main-color: #212121;
   --second-color: #757575;
+  --background-color:#ffffff;
 }
 
 .body {
 font-family: "Roboto", sans-serif;
 font-size: 14px;
-background-color: #F5F5F5;;
+background-color: var(--background-color);
 }
 
 a {
